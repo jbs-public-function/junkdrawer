@@ -27,6 +27,10 @@ Mon Apr 29 21:21:05 2024
 |    0   N/A  N/A      6279      G   ...erProcess --variations-seed-version         77MiB |
 +-----------------------------------------------------------------------------------------+
 ```
+### download 8.9.x and install
+https://docs.nvidia.com/deeplearning/cudnn/archives/cudnn-895/install-guide/index.html
+
+More permanent solution than the following methods
 
 ### installing in venv
 I have cudnn version 9.1 installed. This isn't really supported by tensorflow yet on Ubuntu or I need to build from source etc, but this solution seems to work
