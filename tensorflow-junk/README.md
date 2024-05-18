@@ -45,6 +45,7 @@ pip install "tensorflow[and-cuda]==2.16.1"
 # set LD_LIBRARY_PATH
 # no idea why this works
 export LD_LIBRARY_PATH=.venv/lib/python3.10/site-packages/nvidia/cudnn/lib/:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=$HOME
 ```
 
 ### Docker
