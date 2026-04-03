@@ -27,7 +27,7 @@ try:
         [venv_python, "-m", "ipykernel", "install", "--user", "--name", "junkdrawer", "--display-name", "junkdrawer"],
         check=True
     )
-    print("Successfully installed requirements.")
+    print("Successfully installed kernelspec.")
 except subprocess.CalledProcessError as e:
     print(f"Installation failed: {e}")
 
